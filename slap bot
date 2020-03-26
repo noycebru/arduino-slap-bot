@@ -10,7 +10,7 @@ Created with code from noycebru www.twitch.tv/noycebru
 #include <ESP8266WiFi.h>          //https://github.com/esp8266/Arduino
 #include <IRCClient.h>
 #include <Servo.h>
-#include "secret.h"
+// #include "secret.h"
 Servo servo; 
 
 //define your default values here, if there are different values in config.json, they are overwritten.
@@ -30,7 +30,7 @@ Servo servo;
  
 //OAuth Key for your twitch bot
 // https://twitchapps.com/tmi/
-//#define TWITCH_OAUTH_TOKEN ""
+//#define TWITCH_OAUTH_TOKEN "oauth:"
  
  
 //------------------------------
