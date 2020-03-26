@@ -19,18 +19,18 @@ Servo servo;
 #define IRC_PORT     6667
  
 //------- Replace the following! ------
-//char ssid[] = "";       // your network SSID (name)
-//char password[] = "";  // your network key
+char ssid[] = "";       // your network SSID (name)
+char password[] = "";  // your network key
  
 //The name of the channel that you want the bot to join
-//const String twitchChannelName = "noycebru";
+const String twitchChannelName = "noycebru";
  
 //The name that you want the bot to have
-//#define TWITCH_BOT_NAME "noycebru"
+#define TWITCH_BOT_NAME "noycebru"
  
 //OAuth Key for your twitch bot
 // https://twitchapps.com/tmi/
-//#define TWITCH_OAUTH_TOKEN "oauth:"
+#define TWITCH_OAUTH_TOKEN "oauth:"
  
  
 //------------------------------
